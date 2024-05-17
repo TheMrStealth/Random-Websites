@@ -1,0 +1,92 @@
+body {
+    background-color: #2B4B5E;
+}
+
+h1 {
+    color: #D5D2C5;
+    text-align: center;
+    font-size: 56px;
+    font-family: Wellfleet;
+    width: 75%;
+    margin: auto;
+}
+.hbut {
+    width: 50px;
+}
+.bchbut {
+    width: 50px
+}
+button {
+    background-color: #2B4B5E;
+    border-radius: 15px;
+}
+p {
+    color: #D5D2C5;
+    text-align: center;
+    font-family: Wellfleet;
+    /* width: 50%; */
+    margin: auto;
+    font-weight: bold;
+    font-size: 24px;
+}
+h2 {
+    color: #D5D2C5;
+    text-align: center;
+    font-size: 44px;
+    font-family: Wellfleet;
+    width: 75%;
+    text-align: left;
+}
+li {
+    color: #D5D2C5;
+    text-align: center;
+    font-family: Wellfleet;
+    /* width: 50%; */
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+}
+.BCmain {
+    /* border-style: solid; */
+    width: 65%;
+    margin: auto;
+}
+.homebutton {
+    /* border-style: solid; */
+    /* width: 66px; */
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    color: #D5D2C5;
+    text-decoration: none;
+}
+a:hover{
+    color: magenta;
+}
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }

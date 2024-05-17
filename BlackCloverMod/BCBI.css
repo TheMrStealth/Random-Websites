@@ -9,33 +9,33 @@ h1 {
     font-family: Wellfleet;
     width: 75%;
     margin: auto;
-    padding: 60px;
 }
 .hbut {
     width: 50px;
+}
+.bchbut {
+    width: 50px
 }
 button {
     background-color: #2B4B5E;
     border-radius: 15px;
 }
-h2 {
-    color: #D5D2C5;
-    text-align: left;
-    font-size: 48px;
-    font-family: Wellfleet;
-    width: 60%;
-}
 p {
     color: #D5D2C5;
+    /* text-align: center; */
     font-family: Wellfleet;
+    /* width: 50%; */
+    margin: auto;
     font-weight: bold;
     font-size: 24px;
 }
-a {
+h2 {
     color: #D5D2C5;
-}
-a:hover{
-    color: magenta;
+    /* text-align: center; */
+    font-size: 44px;
+    font-family: Wellfleet;
+    width: 75%;
+    text-align: left;
 }
 li {
     color: #D5D2C5;
@@ -45,4 +45,23 @@ li {
     text-align: left;
     font-weight: bold;
     font-size: 24px;
+}
+.BCmain {
+    /* border-style: solid; */
+    width: 65%;
+    margin: auto;
+    text-align: left;
+}
+.homebutton {
+    /* border-style: solid; */
+    /* width: 66px; */
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    color: #D5D2C5;
+    text-decoration: none;
+}
+a:hover{
+    color: magenta;
 }

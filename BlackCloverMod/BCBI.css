@@ -64,7 +64,7 @@ li {
     text-align: left;
 }
 .homebutton {
-    border-style: solid;
+    /* border-style: solid; */
     /* width: 66px; */
     display: flex;
     justify-content: space-between;

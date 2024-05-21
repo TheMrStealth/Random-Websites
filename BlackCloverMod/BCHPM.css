@@ -61,7 +61,7 @@ li {
     border-radius: 5px;
 }
 .homebutton {
-    border-style: solid;
+    /* border-style: solid; */
     /* width: 66px; */
     display: flex;
     justify-content: space-between;

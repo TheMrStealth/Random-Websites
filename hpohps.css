@@ -22,13 +22,14 @@ h2 {
     color: #D5D2C5;
     text-align: left;
     font-size: 48px;
+    font-weight: normal;
     font-family: Wellfleet;
     width: 60%;
 }
 p {
     color: #D5D2C5;
     font-family: Wellfleet;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 24px;
 }
 a {
@@ -43,6 +44,6 @@ li {
     font-family: Wellfleet;
     /* width: 50%; */
     text-align: left;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 24px;
 }

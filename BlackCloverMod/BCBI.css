@@ -4,11 +4,13 @@ body {
 
 h1 {
     color: #D5D2C5;
+    /* color: black; */
     text-align: center;
     font-size: 56px;
     font-family: Wellfleet;
     width: 75%;
     margin: auto;
+    font-weight: normal;
 }
 .hbut {
     width: 50px;
@@ -22,41 +24,53 @@ button {
 }
 p {
     color: #D5D2C5;
+    /* color: black; */
+    /* padding: 5px; */
     /* text-align: center; */
     font-family: Wellfleet;
     /* width: 50%; */
     margin: auto;
-    font-weight: bold;
+    /* font-weight: bold; */
+    /* font-style: italic; */
     font-size: 24px;
 }
 h2 {
     color: #D5D2C5;
+    /* color: black; */
     /* text-align: center; */
     font-size: 44px;
     font-family: Wellfleet;
+    font-weight: normal;
     width: 75%;
     text-align: left;
 }
 li {
     color: #D5D2C5;
+    /* color: black; */
     text-align: center;
     font-family: Wellfleet;
-    /* width: 50%; */
+    /* padding: 5px; */
+    /* width: 90%; */
     text-align: left;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 24px;
 }
 .BCmain {
     /* border-style: solid; */
+    /* background-color: #D5D2C5; */
+    border-radius: 5px;
     width: 65%;
     margin: auto;
     text-align: left;
 }
 .homebutton {
-    /* border-style: solid; */
+    border-style: solid;
     /* width: 66px; */
     display: flex;
     justify-content: space-between;
+    width: 87%;
+    height: 60px;
+    float: right;
 }
 a {
     color: #D5D2C5;
@@ -65,3 +79,27 @@ a {
 a:hover{
     color: magenta;
 }
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #3B6781;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #D5D2C5;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: magenta;
+  }

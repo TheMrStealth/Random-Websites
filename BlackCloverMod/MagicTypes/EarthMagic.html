@@ -15,7 +15,8 @@
         <!-- <button type="button"><a href="/BlackCloverMod/BCHPM.html"><img src="/Images/BClogo.png" class="bchbut"></a></button>
         <button type="button"><a href="/index.html"><img src="/Images/homebutton.png" class="hbut"></a></button> -->
     </div>
-    <div class="sidenav">
+    <div class="sidenav" id="mySidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">&times;</a>
         <a href="/BlackCloverMod/BCHPM.html">Block Clover</a>
         <a href="/BlackCloverMod/BCBI.html">Basic Info</a>
         <a href="/BlackCloverMod/BCC.html">Commands</a>
@@ -44,5 +45,22 @@
         <p>Earthquake</p>
         <li>Causes an earthquake, damaging every enemy on the ground around you.</li>
     </div>
+    <span class="menu-btn" id="menuBtn" onclick="toggleNav()">&#9776; Menu</span>
+    <script>
+        function toggleNav() {
+            var sideNav = document.getElementById("mySidenav");
+            var menuBtn = document.getElementById("menuBtn");
+
+            if (sideNav.style.width === "250px") {
+                sideNav.style.width = "0";
+                setTimeout(function() {
+                    menuBtn.style.display = "block"; // Show menu button after sideNav is fully closed
+                }, 500); // Adjust delay time as needed to match your transition duration
+            } else {
+                sideNav.style.width = "250px";
+                menuBtn.style.display = "none"; // Hide menu button when opening nav
+            }
+        }
+    </script>
 </body>
 </html>

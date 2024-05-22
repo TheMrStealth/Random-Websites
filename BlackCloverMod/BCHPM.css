@@ -88,8 +88,19 @@ a:hover{
     background-color: #3B6781;
     overflow-x: hidden;
     padding-top: 20px;
-  }
-  
+  } */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #3B6781;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: 0.5s; /* Add transition for smooth animation */
+}  
   .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -101,28 +112,13 @@ a:hover{
   
   .sidenav a:hover {
     color: magenta;
-  } */
-  .sidenav {
-    height: 100%;
-    width: 200px; /* Adjust width for smaller screens */
+  }
+.menu-btn {
     position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #3B6781;
-    overflow-x: hidden;
-    padding-top: 20px;
-}
-
-.sidenav a {
-    padding: 10px 20px; /* Increase padding for touch-friendly buttons */
-    text-decoration: none;
-    font-size: 18px; /* Adjust font size for better readability */
-    color: #D5D2C5;
-    font-family: Wellfleet;
-    display: block;
-}
-
-.sidenav a:hover {
-    color: magenta;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    z-index: 2;
 }

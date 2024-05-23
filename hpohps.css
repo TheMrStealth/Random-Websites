@@ -47,3 +47,10 @@ li {
     /* font-weight: bold; */
     font-size: 24px;
 }
+.BCmain {
+    /* border-style: solid; */
+    width: 76%;
+    margin: auto;
+    /* background-color: #D5D2C5; */
+    border-radius: 5px;
+}

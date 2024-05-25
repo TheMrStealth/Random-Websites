@@ -6,7 +6,7 @@ h1 {
     color: #D5D2C5;
     text-align: center;
     font-size: 56px;
-    font-family: Wellfleet;
+    font-family: Domine;
     width: 75%;
     margin: auto;
     padding: 60px;
@@ -23,12 +23,12 @@ h2 {
     text-align: left;
     font-size: 48px;
     font-weight: normal;
-    font-family: Wellfleet;
+    font-family: Domine;
     width: 60%;
 }
 p {
     color: #D5D2C5;
-    font-family: Wellfleet;
+    font-family: Domine;
     /* font-weight: bold; */
     font-size: 24px;
 }
@@ -41,7 +41,7 @@ a:hover{
 li {
     color: #D5D2C5;
     text-align: center;
-    font-family: Wellfleet;
+    font-family: Domine;
     /* width: 50%; */
     text-align: left;
     /* font-weight: bold; */

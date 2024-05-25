@@ -7,10 +7,10 @@ h1 {
     /* color: black; */
     text-align: center;
     font-size: 56px;
-    font-family: Wellfleet;
+    font-family: Domine;
     width: 75%;
     margin: auto;
-    font-weight: normal;
+    /* font-weight: normal; */
 }
 .hbut {
     width: 50px;
@@ -27,7 +27,7 @@ p {
     color: #D5D2C5;
     /* color: black; */
     text-align: center;
-    font-family: Wellfleet;
+    font-family: Domine;
     /* width: 50%; */
     margin: auto;
     /* font-weight: bold; */
@@ -38,7 +38,7 @@ h2 {
     /* color: black; */
     text-align: center;
     font-size: 44px;
-    font-family: Wellfleet;
+    font-family: Domine;
     width: 75%;
     text-align: left;
     font-weight: normal;
@@ -47,7 +47,7 @@ li {
     color: #D5D2C5;
     /* color: black; */
     text-align: center;
-    font-family: Wellfleet;
+    font-family: Domine;
     /* width: 50%; */
     text-align: left;
     /* font-weight: bold; */
@@ -106,7 +106,7 @@ a:hover{
     text-decoration: none;
     font-size: 24px;
     color: #D5D2C5;
-    font-family: Wellfleet;
+    font-family: Domine;
     display: block;
   }
   

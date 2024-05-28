@@ -15,22 +15,26 @@
         <!-- <button type="button" class="hbutton"><a href="/index.html"><img src="/Images/homebutton.png" class="hbut"></a></button> -->
     </div>
     <div class="sidenav" id="mySidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">&times;</a>
-        <a href="BCHPM.html">Block Clover</a>
-        <a href="BCBI.html">Basic Info</a>
-        <a href="BCC.html">Commands</a>
-        <a href="BCR.html">Races</a>
-        <a href="BCQ.html">Quests</a>
-        <a href="MagicTypes/BCMT.html">Magic Types</a>
-        <a href="BCA.html">Artifacts</a>
-        <a href="BCSB.html">Structures/Biomes</a>
+        <a href="javascript:void(0)" class="sidenava" onclick="toggleNav()">&times;</a>
+        <a href="BCHPM.html" class="sidenava">Block Clover</a>
+        <a href="BCBI.html" class="sidenava">Basic Info</a>
+        <a href="BCC.html" class="sidenava">Commands</a>
+        <a href="BCR.html" class="sidenava">Races</a>
+        <a href="BCQ.html" class="sidenava">Quests</a>
+        <a href="MagicTypes/BCMT.html"class="sidenava">Magic Types</a>
+        <a href="BCA.html"class="sidenava">Artifacts</a>
+        <a href="BCSB.html" class="sidenava">Structures/Biomes</a>
+        <button class="refbutton"><a href="https://discord.gg/cVxVFTkG3K" class="refa" target="_blank"><img src="/Images/discordbutton.png" class="refimg"></a></button>
+        <button class="refbutton"><a href="https://www.patreon.com/Beosti" class="refa" target="_blank"><img src="/Images/patreonlogo.png" class="refimg"></a></button>
       </div>
+
       
     <div class="BCmain">
         <h1>Block Clover</h1>
         <br><br><br>
-        <p>Any info on this page should not be used as a tutorial for the mod. This page is just for more detailed explanations about specific things in the mod, how they work, what they do, etc.</p>
-        <p>If I missed anything, please let me know on Discord (themrstealth).</p>
+        <p>Any info on this page should not be used as a tutorial for the mod. This page is just for more detailed explanations about specific things in the mod, how they work, what they do, etc. If I missed anything, please let me know on Discord (themrstealth).</p>
+        <br>
+        <p>*NOTE* The mod is currently being completely remade, the wiki will be updated as soon as the remade version is out.</p>
         <br><br><br>
         <h2>Contents</h2>
         <li><a href="BCBI.html">Basic Info</a></li>
@@ -42,21 +46,6 @@
         <li><a href="BCSB.html">Structures & Biomes</a></li>
     </div>
     <span class="menu-btn" id="menuBtn" onclick="toggleNav()">&#9776; Menu</span>
-    <script>
-        function toggleNav() {
-            var sideNav = document.getElementById("mySidenav");
-            var menuBtn = document.getElementById("menuBtn");
-
-            if (sideNav.style.width === "250px") {
-                sideNav.style.width = "0";
-                setTimeout(function() {
-                    menuBtn.style.display = "block"; // Show menu button after sideNav is fully closed
-                }, 500); // Adjust delay time as needed to match your transition duration
-            } else {
-                sideNav.style.width = "250px";
-                menuBtn.style.display = "none"; // Hide menu button when opening nav
-            }
-        }
-    </script>
+    <script src="BlockClover.js"></script>
 </body>
 </html>

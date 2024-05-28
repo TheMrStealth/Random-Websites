@@ -26,7 +26,7 @@ button {
 p {
     color: #D5D2C5;
     /* color: black; */
-    text-align: center;
+    /* text-align: center; */
     font-family: Domine;
     /* width: 50%; */
     margin: auto;
@@ -101,7 +101,7 @@ a:hover{
     padding-top: 20px;
     transition: 0.5s; /* Add transition for smooth animation */
 }  
-  .sidenav a {
+  .sidenava {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 24px;
@@ -121,4 +121,24 @@ a:hover{
     cursor: pointer;
     color: #fff;
     z-index: 2;
+}
+.refbutton {
+        /* border-style: solid; */
+    /* width: 66px; */
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    float: left;
+    background-color: #3B6781;
+    border-radius: 30px;
+    margin-top: 100%;
+}
+.refimg {
+    width: 40px;
+    /* width: 4%; */
+}
+.refa {
+    padding: 0px;
+    /* width: 5px; */
 }

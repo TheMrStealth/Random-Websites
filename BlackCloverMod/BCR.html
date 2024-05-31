@@ -10,21 +10,22 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="onload()">
     <div class="homebutton">
         <!-- <button type="button"><a href="BCHPM.html"><img src="/Images/BClogo.png" class="bchbut"></a></button>
         <button type="button"><a href="/index.html"><img src="/Images/homebutton.png" class="hbut"></a></button> -->
     </div>
     <div class="sidenav" id="mySidenav">
-        <a href="javascipt:void(0)" class="closebtn" onclick="toggleNav()">&times;</a>
-        <a href="BCHPM.html">Block Clover</a>
-        <a href="BCBI.html">Basic Info</a>
-        <a href="BCC.html">Commands</a>
-        <a href="BCR.html">Races</a>
-        <a href="BCQ.html">Quests</a>
-        <a href="MagicTypes/BCMT.html">Magic Types</a>
-        <a href="BCA.html">Artifacts</a>
-        <a href="BCSB.html">Structures/Biomes</a>
+        <a href="javascript:void(0)" class="sidenava" onclick="toggleNav()">&times;</a>
+        <a href="BCHPM.html" class="sidenava">Block Clover</a>
+        <a href="BCBI.html" class="sidenava">Basic Info</a>
+        <a href="BCC.html" class="sidenava">Commands</a>
+        <a href="BCR.html" class="sidenava">Races</a>
+        <a href="BCQ.html" class="sidenava">Quests</a>
+        <a href="MagicTypes/BCMT.html"class="sidenava">Magic Types</a>
+        <a href="BCA.html"class="sidenava">Artifacts</a>
+        <a href="BCSB.html" class="sidenava">Structures/Biomes</a>
+        <a href="BCLinks.html" class="sidenava">Links</a>
       </div>
     <div class="BCmain">
         <h1>Races</h1>
@@ -37,7 +38,8 @@
         <h2>Witches</h2>
         <p>Items like a magic wand and a witch hat grant witches extra mana regeneration.</p>
     </div>
-    <span class="menu-btn" id="menuBtn" onclick="toggleNav()">&#9776; Menu</span>
+    <span class="menu-btn" id="menuBtn" onclick="toggleNav()">&#9776;</span>
+    <span class="dlbutton" id="dlbutton" onclick="lmode()">&#9775;</span>
     <script src="BlockClover.js"></script>
 </body>
 </html>

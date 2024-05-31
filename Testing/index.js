@@ -1,3 +1,20 @@
+function lmode() {
+    const wasDarkmode = localStorage.getItem('lmode') === 'true';
+    localStorage.setItem('lmode', !wasDarkmode);
+    const element = document.body;
+    element.classList.toggle('lmode', !wasDarkmode);
+}
+// function lsidenav() {
+//     const wasRelmode = localStorage.getItem('lsidenav') === 'true';
+//     localStorage.setItem('lsidenav', !wasRelmode);
+//     const element = document.body;
+//     element.classList.toggle('lsidenav', !wasRelmode);
+// }
+function onload() {
+    document.body.classList.toggle('lmode', localStorage.getItem('lmode') === 'true');
+    document.body.classList.toggle('lsidenav', localStorage.getItem('lsidenav') === 'true');
+}
+
 function toggleNav() {
     var sideNav = document.getElementById("mySidenav");
     var menuBtn = document.getElementById("menuBtn");
@@ -17,12 +34,4 @@ function toggleNav() {
         // Hide menu button when opening nav
     }
 }
-function lmode() {
-    const wasLightmode = localStorage.getItem('lmode') === 'true';
-    localStorage.setItem('lmode', !wasLightmode);
-    const element = document.body;
-    element.classList.toggle('lmode', !wasLightmode);
-}function onload() {
-    document.body.classList.toggle('lmode', localStorage.getItem('lmode') === 'true');   
-}
- 
+

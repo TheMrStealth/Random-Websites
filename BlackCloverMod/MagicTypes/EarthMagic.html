@@ -10,21 +10,22 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="onload()">
     <div class="homebutton">
         <!-- <button type="button"><a href="/BlackCloverMod/BCHPM.html"><img src="/Images/BClogo.png" class="bchbut"></a></button>
         <button type="button"><a href="/index.html"><img src="/Images/homebutton.png" class="hbut"></a></button> -->
     </div>
     <div class="sidenav" id="mySidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">&times;</a>
-        <a href="/BlackCloverMod/BCHPM.html">Block Clover</a>
-        <a href="/BlackCloverMod/BCBI.html">Basic Info</a>
-        <a href="/BlackCloverMod/BCC.html">Commands</a>
-        <a href="/BlackCloverMod/BCR.html">Races</a>
-        <a href="/BlackCloverMod/BCQ.html">Quests</a>
-        <a href="BCMT.html">Magic Types</a>
-        <a href="/BlackCloverMod/BCA.html">Artifacts</a>
-        <a href="/BlackCloverMod/BCSB.html">Structures/Biomes</a>
+        <a href="javascript:void(0)" class="sidenava" onclick="toggleNav()">&times;</a>
+        <a href="/BlackCloverMod/BCHPM.html" class="sidenava">Block Clover</a>
+        <a href="/BlackCloverMod/BCBI.html" class="sidenava">Basic Info</a>
+        <a href="/BlackCloverMod/BCC.html" class="sidenava">Commands</a>
+        <a href="/BlackCloverMod/BCR.html" class="sidenava">Races</a>
+        <a href="/BlackCloverMod/BCQ.html" class="sidenava">Quests</a>
+        <a href="BCMT.html" class="sidenava">Magic Types</a>
+        <a href="/BlackCloverMod/BCA.html" class="sidenava">Artifacts</a>
+        <a href="/BlackCloverMod/BCSB.html" class="sidenava">Structures/Biomes</a>
+        <a href="/BlackCloverMod/BCLinks.html" class="sidenava">Links</a>
       </div>
     <div class="BCmain">
         <h1>Earth Magic</h1>
@@ -45,7 +46,8 @@
         <p>Earthquake</p>
         <li>Causes an earthquake, damaging every enemy on the ground around you.</li>
     </div>
-    <span class="menu-btn" id="menuBtn" onclick="toggleNav()">&#9776; Menu</span>
+    <span class="menu-btn" id="menuBtn" onclick="toggleNav()">&#9776;</span>
+    <span class="dlbutton" id="dlbutton" onclick="lmode()">&#9775;</span>
     <script src="/BlackCloverMod/BlockClover.js"></script>
 </body>
 </html>

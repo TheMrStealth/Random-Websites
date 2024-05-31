@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="onload()">
     <div class="homebutton">
         <!-- <button type="button" class="hbutton"><a href="/index.html"><img src="/Images/homebutton.png" class="hbut"></a></button> -->
     </div>
@@ -24,8 +24,7 @@
         <a href="MagicTypes/BCMT.html"class="sidenava">Magic Types</a>
         <a href="BCA.html"class="sidenava">Artifacts</a>
         <a href="BCSB.html" class="sidenava">Structures/Biomes</a>
-        <button class="refbutton"><a href="https://discord.gg/cVxVFTkG3K" class="refa" target="_blank"><img src="/Images/discordbutton.png" class="refimg"></a></button>
-        <button class="refbutton"><a href="https://www.patreon.com/Beosti" class="refa" target="_blank"><img src="/Images/patreonlogo.png" class="refimg"></a></button>
+        <a href="BCLinks.html" class="sidenava">Links</a>
       </div>
 
       
@@ -44,8 +43,10 @@
         <li><a href="MagicTypes/BCMT.html">Magic Types (Attributes)</a></li>
         <li><a href="BCA.html">Artifacts</a></li>
         <li><a href="BCSB.html">Structures & Biomes</a></li>
+        <li><a href="BCLinks.html">Links</a></li>
     </div>
-    <span class="menu-btn" id="menuBtn" onclick="toggleNav()">&#9776; Menu</span>
+    <span class="menu-btn" id="menuBtn" onclick="toggleNav()">&#9776;</span>
+    <span class="dlbutton" id="dlbutton" onclick="lmode()">&#9775;</span>
     <script src="BlockClover.js"></script>
 </body>
 </html>

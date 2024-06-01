@@ -24,12 +24,12 @@ function toggleNav() {
         setTimeout(function() {
             menuBtn.style.display = "block"; // Show menu button after sideNav is fully closed
         }, 500); // Adjust delay time as needed to match your transition duration
-        document.getElementById("menuBtn").style.marginLeft = "0px"
-        document.getElementById("dlbutton").style.marginLeft = "0px"
+        document.getElementById("menuBtn").style.marginLeft = "0px";
+        document.getElementById("dlbutton").style.marginLeft = "0px";
     } else {
         sideNav.style.width = "250px";
-        document.getElementById("menuBtn").style.marginLeft = "250px"
-        document.getElementById("dlbutton").style.marginLeft = "250px"
+        document.getElementById("menuBtn").style.marginLeft = "250px";
+        document.getElementById("dlbutton").style.marginLeft = "250px";
         // menuBtn.style.display = "none"; 
         // Hide menu button when opening nav
     }

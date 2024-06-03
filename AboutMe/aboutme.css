@@ -1,0 +1,43 @@
+.topbar {
+    /* border-style: solid; */
+    border-width: 4px;
+    height: 75px;
+    background-color: #0C98A6;
+    /* background-color: #0ca666; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.topbutton {
+    /* border-style: solid; */
+    border-radius: 50px;
+    background-color: #0ca666;
+    /* background-color: #0C98A6; */
+}
+body {
+    margin: auto;
+    background: url(Images/astasotwk.png);
+    background-size: cover;
+    font-family: Domine;
+}
+p {
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    font-size: 48px;
+    /* font-weight: normal; */
+    padding-top: 20px;
+}
+h2 {
+    margin: auto;
+    padding: 8px;
+}
+.main {
+    background-color: #C5B3B3;
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 10px;
+}

@@ -1,3 +1,2 @@
-var x = 5;
-var y = 17;
-console.log(x+y);
+var x = Math.floor(Math.random()*10+1);
+console.log(x);

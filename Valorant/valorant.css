@@ -16,7 +16,7 @@ h1 {
     padding: 0.5%;
 }
 #nbutton {
-    border-style: solid;
+    /* border-style: solid; */
     border-radius: 5px;
     display: flex;
     /* height: 75%; */
@@ -35,4 +35,12 @@ p {
     padding-left: 7.5%;
     padding-right: 7.5%;
     font-size: 24px;
+}
+button {
+    background-color: transparent;
+    font-weight: bold;
+}
+a {
+    color: black;
+    text-decoration: none;
 }

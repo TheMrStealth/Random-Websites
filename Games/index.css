@@ -21,3 +21,7 @@ body {
     /* display: block; */
     /* margin: auto; */
 }
+canvas {
+    /* border-style: solid; */
+    width: 100%;
+}

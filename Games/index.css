@@ -1,27 +1,62 @@
 body {
-    background-color: skyblue;
-    margin: 0;
+    background-color: #1b2328;
+    color: #f9f9f7;
 }
-.ground {
-    /* border-style: solid; */
-    position: absolute;
-    width: 100%;
-    height: 12%;
-    background-color: #62BC2F;
-    position: fixed;
-    bottom: 0;
+body a {
+    color: #f9f9f7;
 }
-#player {
-    width: 63px;
-    position: relative;
-    left: 700px;
-    top: 620px;
-    z-index: 5;
-    /* border-style: solid; */
-    /* display: block; */
-    /* margin: auto; */
+h1 {
+    /* color: #D5D2C5; */
+    /* color: black; */
+    text-align: center;
+    font-size: 56px;
+    font-family: Domine;
+    width: 75%;
+    margin: auto;
+    /* font-weight: normal; */
 }
-canvas {
+p {
+    /* color: #D5D2C5; */
+    /* color: black; */
+    /* text-align: center; */
+    font-family: Domine;
+    /* width: 50%; */
+    margin: auto;
+    /* font-weight: bold; */
+    font-size: 24px;
+}
+h2 {
+    /* color: #D5D2C5; */
+    /* color: black; */
+    text-align: center;
+    font-size: 44px;
+    font-family: Domine;
+    width: 75%;
+    text-align: left;
+    font-weight: normal;
+}
+li {
+    /* color: #D5D2C5; */
+    /* color: black; */
+    text-align: center;
+    font-family: Domine;
+    /* width: 50%; */
+    text-align: left;
+    /* font-weight: bold; */
+    font-size: 24px;
+}
+.main {
     /* border-style: solid; */
-    width: 100%;
+    width: 65%;
+    margin: auto;
+    /* background-color: #D5D2C5; */
+    border-radius: 5px;
+}
+a {
+    /* color: #D5D2C5; */
+    /* color: black; */
+    text-decoration: none;
+}
+a:hover{
+    color: magenta;
 }
